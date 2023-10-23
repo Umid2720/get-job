@@ -17,4 +17,113 @@ button {
   border: 0;
   outline: none;
   cursor: pointer;
+  font-weight: 500;
+  padding: 16px 32px;
+  border-radius: 8px;
+  line-height: 16.8px;
+  letter-spacing: -0.42px;
+  background-color: #2653f1;
+}
+
+button.grey {
+  color: #0e0f12;
+  background-color: #0e0f1214;
+}
+
+.white {
+  color: #fff;
+}
+
+.bg-unset {
+  background-color: unset;
+}
+
+body {
+  font-size: 14px;
+  color: #0e0f12;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.block {
+  display: block;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 57.6px;
+  letter-spacing: -1.44px;
+}
+
+.title span {
+  color: #2653f1;
+  font-weight: 700;
+}
+
+.center {
+  text-align: center;
+}
+
+.slogan {
+  column-gap: 8px;
+  padding: 8px 14px;
+  line-height: 16.8px;
+  margin-bottom: 16px;
+  border-radius: 1000px;
+  letter-spacing: -0.42px;
+  background-color: #0e0f120f;
+}
+
+.slogan span {
+  width: 20px;
+  height: 20px;
+  padding: 3px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.col-3 {
+  width: 25%;
+  padding: 0 8px;
+}
+
+.col-4 {
+  width: 33.3%;
+  padding: 0 10px;
+}
+
+.col-6 {
+  width: 50%;
+  padding: 0 8px;
 }
