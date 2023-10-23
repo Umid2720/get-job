@@ -127,3 +127,71 @@ body {
   width: 50%;
   padding: 0 8px;
 }
+
+/* Header section */
+
+.bg {
+  /* min-height: 880px; */
+  background: linear-gradient(
+    180deg,
+    rgba(14, 15, 18, 0.96) 0%,
+    rgba(21, 25, 40, 0.96) 100%
+  );
+}
+
+.header {
+  padding-top: 32px;
+  margin-bottom: 120px;
+}
+
+.header__menu {
+  column-gap: 48px;
+}
+
+.header__menu a {
+  font-size: 16px;
+  line-height: 19.2px;
+  letter-spacing: -0.48px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.header__menu a:hover,
+.header__menu a.active {
+  color: #fff;
+}
+
+.header__menu a.active {
+  font-weight: 600;
+}
+
+.welcome {
+  max-width: 794px;
+  flex-direction: column;
+  padding-bottom: 64px;
+}
+
+.welcome .slogan {
+  background-color: #ffffff0f;
+}
+
+.welcome .title {
+  font-size: 64px;
+  line-height: 76.8px;
+  letter-spacing: -1.92px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.welcome .title span {
+  color: #fff;
+  font-weight: 800;
+}
+
+.welcome__text {
+  font-size: 20px;
+  line-height: 32px;
+  color: #ffffffb3;
+  letter-spacing: -0.6px;
+}
