@@ -25,6 +25,11 @@ button {
   letter-spacing: -0.42px;
   background-color: #2653f1;
 }
+input,
+select {
+  border: 0;
+  outline: none;
+}
 
 button.grey {
   color: #0e0f12;
