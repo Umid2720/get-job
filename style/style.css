@@ -69,6 +69,9 @@ body {
 .block {
   display: block;
 }
+.column {
+  flex-direction: column;
+}
 
 .ml-auto {
   margin-left: auto;
