@@ -12,35 +12,39 @@
     />
     <link rel="stylesheet" href="style/style.css" />
   </head>
-  <body>
+  <body class="grey">
     <div class="bg">
-      <header class="header">
-        <div class="container ml-auto mr-auto flex items-center justify-center">
-          <!-- <a href="#" class="header__logo"> -->
-          <img src="image/logo.png" alt="" />
-          <!-- </a> -->
-          <ul class="header__menu flex items-center ml-auto mr-auto">
+      <header class="header pt-32">
+        <div class="container mx-auto flex items-center justify-center">
+          <img src="image/logo.png" alt="logo" />
+          <ul class="header__menu flex items-center mx-auto">
             <li>
-              <a href="#" class="active">Home</a>
+              <a href="#" class="active white opacity-7 line-height">Home</a>
             </li>
             <li>
-              <a href="#">Find Job</a>
+              <a href="#" class="white opacity-7 line-height">Find Job</a>
             </li>
             <li>
-              <a href="#">About Us</a>
+              <a href="#" class="white opacity-7 line-height">About Us</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#" class="white opacity-7 line-height">Contact</a>
             </li>
           </ul>
-          <button class="bg-unset white">Log in</button>
-          <button class="white">Create Account</button>
+          <button class="white line-height medium pt-16 pb-16 pr-32 pl-32">
+            Log in
+          </button>
+          <button
+            class="white line-height bg-blue medium pt-16 pb-16 pr-32 pl-32"
+          >
+            Create Account
+          </button>
         </div>
       </header>
 
-      <div class="welcome flex items-center center ml-auto mr-auto">
-        <div class="slogan white flex items-center">
-          <span class="flex items-center">
+      <div class="welcome flex column items-center center mx-auto">
+        <div class="slogan line-height white flex items-center bg-light-white">
+          <span class="flex items-center bg-grey rounded">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -56,23 +60,28 @@
           </span>
           Please Meet Up With GetJob
         </div>
-        <h1 class="title white mb-24">
-          Discover Your Favorite <span class="block">Job with GetJob</span>
+        <h1 class="title white mb-24 line-height">
+          Discover Your Favorite
+          <span class="block extra-bold">Job with GetJob</span>
         </h1>
-        <p class="welcome__text">
+        <p class="welcome__text white opacity-7">
           Thousands of jobs here. Now you can find your dream job <br />
           from home, anywhere and anytime with getjob.
         </p>
       </div>
     </div>
+
+    <!-- Search section start -->
     <div class="search">
-      <div class="container ml-auto mr-auto">
+      <div class="container mx-auto">
         <div class="search__bg"></div>
         <div
-          class="search__form flex items-center justify-center ml-auto mr-auto"
+          class="search__form pt-32 pr-32 pb-32 pl-32 flex items-center justify-center mx-auto bg-white"
         >
-          <div class="search__item flex">
-            <span class="flex items-center justify-center">
+          <div class="search__item flex items-center line-height pr-32">
+            <span
+              class="flex items-center justify-center bg-grey rounded mr-16"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -85,10 +94,14 @@
                 />
               </svg>
             </span>
-            <input type="text" placeholder="Job title or Keyword" />
+            <p>Job title or Keyword</p>
           </div>
-          <div class="search__item flex items-center justify-center">
-            <span class="flex items-center justify-center">
+          <div
+            class="search__item flex items-center line-height justify-center pl-32 pr-32"
+          >
+            <span
+              class="flex items-center justify-center bg-grey rounded mr-16"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -102,16 +115,14 @@
                 />
               </svg>
             </span>
-            <input placeholder="Location" list="location" />
-            <datalist id="location">
-              <option>Tashkent</option>
-              <option>Khorezm</option>
-              <option>Bukhara</option>
-              <option>Samarqand</option>
-            </datalist>
+            <p>Location</p>
           </div>
-          <div class="search__item flex items-center justify-center">
-            <span class="flex items-center justify-center">
+          <div
+            class="search__item flex items-center line-height justify-center pl-32 pr-32"
+          >
+            <span
+              class="flex items-center justify-center bg-grey rounded mr-16"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -124,31 +135,36 @@
                 />
               </svg>
             </span>
-            <select>
-              <option>Type of Work</option>
-              <option>Fulltime</option>
-              <option>Parttime</option>
-              <option>Freelancer</option>
-            </select>
+            <p>Type of Work</p>
           </div>
-          <button class="white">Search Job</button>
+          <div class="pl-32">
+            <button class="white bg-blue pt-16 pr-32 pb-16 pl-32">
+              Search Job
+            </button>
+          </div>
         </div>
       </div>
     </div>
+    <!-- Search section end -->
 
+    <!-- Category section start -->
     <div class="category">
-      <div class="container ml-auto mr-auto">
+      <div class="container mx-auto">
         <div class="category__title flex column items-center">
-          <div class="slogan flex items-center">
-            <span></span>
+          <div
+            class="slogan bg-light-grey-two flex items-center mb-16 line-height"
+          >
+            <span class="bg-grey rounded"></span>
             Selected Job by Category
           </div>
-          <div class="title">Find Your Jobs By <span>Category</span></div>
+          <h2 class="title line-height medium">
+            Find Your Jobs By <span class="blue extra-bold">Category</span>
+          </h2>
         </div>
-        <div class="row">
-          <div class="col-3">
+        <div class="row flex">
+          <div class="col-3 mb-16">
             <div class="category__box">
-              <div class="category__icon">
+              <div class="category__icon rounded">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -162,13 +178,17 @@
                   />
                 </svg>
               </div>
-              <a class="category__link">Marketing & Communication</a>
-              <p class="category__box-text">1069 Jobs Available</p>
+              <a class="category__link line-height semi-bold"
+                >Marketing & Communication</a
+              >
+              <p class="category__box-text line-height mt-16 opacity-7">
+                1069 Jobs Available
+              </p>
             </div>
           </div>
           <div class="col-3">
             <div class="category__box">
-              <div class="category__icon">
+              <div class="category__icon rounded">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -182,13 +202,17 @@
                   />
                 </svg>
               </div>
-              <a class="category__link">Business Development</a>
-              <p class="category__box-text">1069 Jobs Available</p>
+              <a class="category__link line-height semi-bold"
+                >Business Development</a
+              >
+              <p class="category__box-text line-height mt-16 opacity-7">
+                1069 Jobs Available
+              </p>
             </div>
           </div>
           <div class="col-3">
             <div class="category__box">
-              <div class="category__icon">
+              <div class="category__icon rounded">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -202,16 +226,18 @@
                   />
                 </svg>
               </div>
-              <a class="category__link"
+              <a class="category__link line-height semi-bold"
                 >Customer <br />
                 Center & Support</a
               >
-              <p class="category__box-text">1069 Jobs Available</p>
+              <p class="category__box-text line-height mt-16 opacity-7">
+                1069 Jobs Available
+              </p>
             </div>
           </div>
           <div class="col-3">
             <div class="category__box">
-              <div class="category__icon">
+              <div class="category__icon rounded">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -225,13 +251,17 @@
                   />
                 </svg>
               </div>
-              <a class="category__link">Bussiness & Consulting</a>
-              <p class="category__box-text">1069 Jobs Available</p>
+              <a class="category__link line-height semi-bold"
+                >Bussiness & Consulting</a
+              >
+              <p class="category__box-text line-height mt-16 opacity-7">
+                1069 Jobs Available
+              </p>
             </div>
           </div>
           <div class="col-3">
             <div class="category__box">
-              <div class="category__icon">
+              <div class="category__icon rounded">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -245,13 +275,17 @@
                   />
                 </svg>
               </div>
-              <a class="category__link">Design & Development</a>
-              <p class="category__box-text">1069 Jobs Available</p>
+              <a class="category__link line-height semi-bold"
+                >Design & Development</a
+              >
+              <p class="category__box-text line-height mt-16 opacity-7">
+                1069 Jobs Available
+              </p>
             </div>
           </div>
           <div class="col-3">
             <div class="category__box">
-              <div class="category__icon">
+              <div class="category__icon rounded">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -265,13 +299,19 @@
                   />
                 </svg>
               </div>
-              <a class="category__link">IT & Software Development</a>
-              <p class="category__box-text">1069 Jobs Available</p>
+              <a class="category__link line-height semi-bold"
+                >IT & Software Development</a
+              >
+              <p class="category__box-text line-height mt-16 opacity-7">
+                1069 Jobs Available
+              </p>
             </div>
           </div>
           <div class="col-3">
             <div class="category__box">
-              <div class="category__icon flex items-center justify-center">
+              <div
+                class="category__icon rounded flex items-center justify-center"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
@@ -284,13 +324,19 @@
                   />
                 </svg>
               </div>
-              <a class="category__link">Sport, News & Media</a>
-              <p class="category__box-text">1069 Jobs Available</p>
+              <a class="category__link line-height semi-bold"
+                >Sport, News & Media</a
+              >
+              <p class="category__box-text line-height mt-16 opacity-7">
+                1069 Jobs Available
+              </p>
             </div>
           </div>
           <div class="col-3">
             <div class="category__box">
-              <div class="category__icon flex justify-center items-center">
+              <div
+                class="category__icon rounded flex justify-center items-center"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
@@ -303,13 +349,18 @@
                   />
                 </svg>
               </div>
-              <a class="category__link">Human Resources & Development</a>
-              <p class="category__box-text">1069 Jobs Available</p>
+              <a class="category__link line-height semi-bold"
+                >Human Resources & Development</a
+              >
+              <p class="category__box-text line-height mt-16 opacity-7">
+                1069 Jobs Available
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- Category section end -->
 
     <!-- Job section start -->
     <section class="job">
