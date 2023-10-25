@@ -204,3 +204,45 @@ body {
   color: #ffffffb3;
   letter-spacing: -0.6px;
 }
+
+/* Search */
+.search {
+  margin-bottom: 76px;
+}
+
+.search__bg {
+  height: 702px;
+  margin-top: -321px;
+  border-radius: 24px;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("../image/campaign.jpg");
+}
+
+.search__form {
+  padding: 32px;
+  max-width: 934px;
+  margin-top: -48px;
+  border-radius: 12px;
+  background-color: #fff;
+  /* transform: translateY(-48px); */
+  box-shadow: 4px 32px 120px 0px rgba(191, 194, 203, 0.24);
+}
+
+.search__item {
+  padding: 0 32px;
+}
+
+.search__item:first-child {
+  padding-left: 0;
+}
+
+.search__item span {
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+  margin-right: 16px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+
