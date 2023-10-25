@@ -25,6 +25,7 @@ button {
   letter-spacing: -0.42px;
   background-color: #2653f1;
 }
+
 input,
 select {
   border: 0;
@@ -69,6 +70,7 @@ body {
 .block {
   display: block;
 }
+
 .column {
   flex-direction: column;
 }
@@ -175,8 +177,8 @@ body {
 
 .welcome {
   max-width: 794px;
+  padding-bottom: 385px;
   flex-direction: column;
-  padding-bottom: 64px;
 }
 
 .welcome .slogan {
@@ -246,3 +248,65 @@ body {
   background-color: #d9d9d9;
 }
 
+/* Category */
+
+.category {
+  margin-top: 124px;
+}
+
+.category__title {
+  margin-bottom: 64px;
+}
+
+.category__box {
+  padding: 30px 40px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  background: #0e0f120d;
+}
+
+.category__box:hover {
+  box-shadow: 0px 24px 64px 0px rgba(66, 70, 86, 0.15);
+  background: linear-gradient(120deg, #2653f1 0%, #2a26f1 100%);
+}
+
+.category__icon {
+  width: 48px;
+  height: 48px;
+  padding: 12px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  background-color: rgba(38, 83, 241, 0.08);
+}
+
+.category__box:hover .category__icon {
+  background-color: rgba(217, 217, 217, 0.18);
+}
+
+.category__box:hover .category__icon svg path {
+  fill: #fff;
+}
+
+.category__link {
+  font-size: 24px;
+  color: #0e0f12;
+  font-weight: 600;
+  letter-spacing: -0.72px;
+  line-height: 120%; /* 28.8px */
+}
+
+.category__box:hover .category__link {
+  color: #fff;
+}
+
+.category__box-text {
+  font-size: 16px;
+  margin-top: 16px;
+  color: #0e0f12b3;
+  letter-spacing: -0.48px;
+  line-height: 120%; /* 19.2px */
+}
+
+.category__box:hover .category__box-text {
+  color: #ffffffcc;
+}
