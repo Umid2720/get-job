@@ -308,5 +308,145 @@ body {
 }
 
 .category__box:hover .category__box-text {
-  color: #ffffffcc;
+/* Job */
+.job {
+  margin-top: 92px;
+  padding: 64px 0 68px;
+  background: linear-gradient(
+    180deg,
+    rgba(38, 83, 241, 0.02) 0%,
+    rgba(38, 83, 241, 0.08) 36.96%,
+    rgba(38, 83, 241, 0) 100%
+  );
+}
+
+/* Job Vacancy */
+.job-vacancy__image {
+  border-radius: 40px;
+}
+
+.job-vacancy__content {
+  max-width: 508px;
+  margin-left: 84px;
+}
+
+.job-vacancy__title {
+  font-size: 56px;
+  letter-spacing: -1.68px;
+}
+
+.job-vacancy__text {
+  font-size: 20px;
+  line-height: 160%;
+  margin-bottom: 56px;
+  letter-spacing: -0.6px;
+  color: rgba(14, 15, 18, 0.7);
+}
+
+.job-vacancy__button {
+  margin-right: 12px;
+  background-color: rgba(14, 15, 18, 0.08);
+}
+
+/* job recomended */
+.job-recomended {
+  margin-top: 160px;
+}
+
+.job-recomended__content {
+  max-width: 555px;
+}
+
+.job-recomended__list {
+  margin-top: 64px;
+}
+
+.job-recomended__box {
+  padding: 24px;
+  border-radius: 16px;
+  background-color: rgba(14, 15, 18, 0.05);
+}
+
+.job-recomended__box:hover {
+  color: #fff;
+  background-color: #2653f1;
+}
+
+.job-recomended__box-grade {
+  font-size: 12px;
+  letter-spacing: -0.36px;
+}
+
+.job-recomended__box-grade span {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.job-recomended__type {
+  font-size: 11px;
+  padding-top: 8px;
+  border-radius: 48px;
+  padding-bottom: 8px;
+  letter-spacing: -0.33px;
+  background-color: rgba(14, 15, 18, 0.08);
+}
+
+.job-recomended__box:hover .job-recomended__type {
+  background-color: rgba(207, 211, 221, 0.486);
+}
+
+.job-recomended__icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 48px;
+  background-color: rgba(14, 15, 18, 0.08);
+}
+
+.job-recomended__box:hover .job-recomended__icon {
+  background-color: rgba(249, 250, 252, 0.6);
+}
+
+.job-recomended__title {
+  font-size: 24px;
+  letter-spacing: -0.72px;
+}
+
+.job-recomended__text {
+  margin-top: 8px;
+  letter-spacing: -0.42px;
+}
+
+.job-recomended__text span {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.job-recomended__line {
+  height: 1px;
+  background-color: rgba(14, 15, 18, 0.24);
+}
+
+.job-recomended__box:hover .job-recomended__line {
+  background-color: rgba(249, 250, 252, 0.6);
+}
+
+.job-recomended__price {
+  font-size: 18px;
+  letter-spacing: -0.54px;
+}
+
+.job-recomended__apply {
+  letter-spacing: -0.42px;
+  text-decoration-line: underline;
+}
+
+.job-recomended__box:hover .job-recomended__apply {
+  color: #fff;
+}
+
+.job-recomended__all {
+  font-size: 16px;
+  letter-spacing: -0.48px;
 }
