@@ -21,6 +21,7 @@ button {
   padding: 16px 32px;
   border-radius: 8px;
   line-height: 16.8px;
+  white-space: nowrap;
   letter-spacing: -0.42px;
   background-color: #2653f1;
 }
